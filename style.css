@@ -63,13 +63,13 @@ a {
     line-height:76px;
  }
 
-  .about p{
+  .about p {
     font-size:18px;
     line-height:30px;
     opacity: 0.8;
   }
 
-  .about button{
+  .about button {
     font-size:18px;
     border-radius: 20px;
     padding: 20px 25px;
@@ -79,3 +79,39 @@ a {
   .about__info {
     max-width: 550px;
   }
+
+  .form {
+   
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #1D263A;
+    color: #fff;
+
+    
+    }
+
+    .form__container {
+      width: 550px;
+      
+ 
+
+  .form h1 {
+
+    font-size: 48px;
+  }
+
+  .form p {
+    font-size: 18px;
+    opacity: 0.65;
+  }
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
