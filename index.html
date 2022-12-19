@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" />
-        <link rel="stylesheet" href="/fa/css/all.min.css "/>
+        <link rel="stylesheet" href="./fa/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
         <title>Солнечные батареи GreenCorp</title>
     </head>
@@ -14,23 +15,24 @@
     
     <body>
             
-    <div class="header">
+    <header>
         <img class="header__logo" src="img/logo.svg">
             <div class="header__controls">
                 <a href="#contacts">Контакты</a>
                 <button>Заказать</button>
             </div>  
-    </div>  
+        </header>
 
-        <section class="about">
-            <div class="about__info">
+
+        <section class="about" >
+            <div class="about__info animate__animated animate__slideInLeft">
                 <h1>Солнечные панели GreenRobotic</h1>
                 <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-                <button>Узнать подробнее<i class="fas fa-angle-right"></i></button>
+                <button>Узнать подробнее <i class="fas fa-angle-right"></i></button>
             </div>
 
 
-            <div class="about__images">
+            <div class="about__images animate__animated animate__slideInRight">
             <img class="about__sun-image" src="img/sun.png">
             <img class="about__image" src="img/solar-panel.png">
               
@@ -74,7 +76,7 @@
                 <div class="container">
                 <label for="budget">Примерный бюджет</label>
 
-                        <select name="budget" id="budget"></selecttype>
+                        <select name="budget" id="budget">
                             
                             <option value="Выберите вариант">Выберите вариант</option>
                             <option value="10–30">10 000₽ – 30 000₽</option>
@@ -84,8 +86,7 @@
                         </select>
                 </div>
                 </div>           
-                    <button  type="submit"  class="form__submit">Отправить заявку></button>
-                      
+                <button  type="submit"  class="form__submit">Отправить заявку</button>
                 
         </form> 
         </div>
